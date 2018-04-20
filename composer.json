@@ -1,0 +1,21 @@
+{
+    "name": "codeurx/autoloader",
+    "description": "PHP autoloader that loads class files recursively.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Ali Salah",
+            "email": "codeurx@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeurx\\Autoloader\\": "src"
+        }
+    }
+}
